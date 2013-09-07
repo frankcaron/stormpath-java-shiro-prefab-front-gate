@@ -1,0 +1,29 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="stormpath-java-shiro-prefab-front-gate:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/stormpath_java_shiro_prefab_front_gate_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="stormpath-java-shiro-prefab-front-gate/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="stormpath-java-shiro-prefab-front-gate" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: com.stormpath.sdk:stormpath-sdk-api:0.8.0" />
+          <element id="library" level="project" name="Maven: com.stormpath.sdk:stormpath-sdk-httpclient:0.8.0" />
+          <element id="library" level="project" name="Maven: com.stormpath.sdk:stormpath-sdk-impl:0.8.0" />
+          <element id="library" level="project" name="Maven: commons-codec:commons-codec:1.6" />
+          <element id="library" level="project" name="Maven: javax.servlet:javax.servlet-api:3.0.1" />
+          <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpclient:4.2.2" />
+          <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpcore:4.2.2" />
+          <element id="library" level="project" name="Maven: org.codehaus.jackson:jackson-core-asl:1.9.11" />
+          <element id="library" level="project" name="Maven: org.codehaus.jackson:jackson-mapper-asl:1.9.11" />
+          <element id="library" level="project" name="Maven: org.slf4j:jcl-over-slf4j:1.6.6" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.6.6" />
+          <element id="library" level="project" name="Maven: commons-beanutils:commons-beanutils:1.8.3" />
+          <element id="library" level="project" name="Maven: org.apache.shiro:shiro-core:1.2.2" />
+          <element id="library" level="project" name="Maven: org.apache.shiro:shiro-web:1.2.2" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

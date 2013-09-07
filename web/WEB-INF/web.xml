@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+		  http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+           version="2.5">
+    <filter>
+        <filter-name>AuthFilter</filter-name>
+        <filter-class>com.stormpath.shirojavafrontgate.controllers.Login.AuthFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>AuthFilter</filter-name>
+        <url-pattern>/protected/*</url-pattern>
+    </filter-mapping>
+
+    <servlet>
+        <servlet-name>LoginProcessor</servlet-name>
+        <servlet-class>com.stormpath.shirojavafrontgate.controllers.Login.LoginProcessorServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>LoginProcessor</servlet-name>
+        <url-pattern>/LoginProcessorServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>RegProcessor</servlet-name>
+        <servlet-class>com.stormpath.shirojavafrontgate.controllers.Registration.RegProcessorServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>RegProcessor</servlet-name>
+        <url-pattern>/RegProcessorServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>EditProcessor</servlet-name>
+        <servlet-class>com.stormpath.shirojavafrontgate.controllers.Edit.EditProcessorServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>EditProcessor</servlet-name>
+        <url-pattern>/EditProcessorServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ResetProcessor</servlet-name>
+        <servlet-class>com.stormpath.shirojavafrontgate.controllers.Login.ResetProcessorServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ResetProcessor</servlet-name>
+        <url-pattern>/ResetProcessorServlet</url-pattern>
+    </servlet-mapping>
+
+</web-app>
