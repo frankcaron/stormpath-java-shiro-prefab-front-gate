@@ -39,6 +39,7 @@ public class APICommunicator {
     private String apiKey;
     private String applicationURL;
     private String directoryURL;
+    public String adminGroupURL;
 
     //Stormpath Vars
     private Client client;
@@ -58,6 +59,7 @@ public class APICommunicator {
             apiKey = prop.getProperty("apiKey");
             applicationURL = prop.getProperty("applicationURL");
             directoryURL = prop.getProperty("directoryURL");
+            adminGroupURL = prop.getProperty("adminGroupURL");
 
         } catch (IOException ex) {
             ex.printStackTrace();

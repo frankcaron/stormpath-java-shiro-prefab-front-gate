@@ -47,6 +47,7 @@ public class LoginProcessorServlet extends HttpServlet {
             //Store the account in the HTTP session
             String href = (String)retrievedAccount.getPrincipal();
             session.setAttribute("Account", retrievalHelper.getAccount(href));
+            session.setAttribute("isAdmin", retrievedAccount.hasRole(retrievalHelper.adminGroupURL));
 
             //Redirect to site page
             String site = "/protected/main.jsp";

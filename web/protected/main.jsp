@@ -26,6 +26,13 @@
                 <tr>
                     <td colspan="2">Welcome to the simple framework-less Java application. Your user information follows.</td>
                 </tr>
+                <%
+                   if (session.getAttribute("isAdmin").equals(true)) {
+                %>
+                <tr>
+                    <td colspan="2">Only admins will see this.</td>
+                </tr>
+                <% } %>
                 <tr>
                     <td>Username: </td>
                     <td><input type="text" name="username" value="<%= currentUser.getUsername() %>" disabled /></td>

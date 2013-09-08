@@ -37,27 +37,31 @@ public class AuthFilter implements Filter {
         if (path.equals("/index.jsp") || path.equals("/index.jsp?session=false") || path.equals("/LoginProcessorServlet")) {
             filterChain.doFilter(servletRequest, servletResponse);
         } else {
+            try {
+                //Get the current user
+                Subject currentUser = SecurityUtils.getSubject();
 
-            //Get the current user
-            Subject currentUser = SecurityUtils.getSubject();
+                //Check for the current Shiro subject for auth.
+                if(!currentUser.isAuthenticated()) {
+                    //No session was found. Redirect to login page.
+                    ((HttpServletResponse)(servletResponse)).sendRedirect("/index.jsp?session=expired");
 
-            //Check for the current Shiro subject for auth.
-            if(!currentUser.isAuthenticated()) {
+                //Clear the current shiro subject and redirect if logging out
+                } else if (path.equals("/protected/logout.jsp")) {
+                    if (currentUser != null) {
+                        if (currentUser.isAuthenticated()) {
+                            currentUser.logout();
+                        }
+                    }
+                    ((HttpServletResponse)(servletResponse)).sendRedirect("/index.jsp");
+
+                //All is well. Continue as per normal.
+                } else {
+                    filterChain.doFilter(servletRequest, servletResponse);
+                }
+            } catch(Exception e) {
                 //No session was found. Redirect to login page.
                 ((HttpServletResponse)(servletResponse)).sendRedirect("/index.jsp?session=expired");
-
-            //Clear the current shiro subject and redirect if logging out
-            } else if (path.equals("/protected/logout.jsp")) {
-                if (currentUser != null) {
-                    if (currentUser.isAuthenticated()) {
-                        currentUser.logout();
-                    }
-                }
-                ((HttpServletResponse)(servletResponse)).sendRedirect("/index.jsp");
-
-            //All is well. Continue as per normal.
-            } else {
-                filterChain.doFilter(servletRequest, servletResponse);
             }
         }
     }

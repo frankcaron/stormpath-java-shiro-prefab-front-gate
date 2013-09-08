@@ -17,8 +17,11 @@
     <file path="/web.xml" changelist="7bcb8fc9-5455-4d5c-b063-6ab8dba94cbf" time="1378569785268" ignored="false" />
     <file path="/fragment.java" changelist="7bcb8fc9-5455-4d5c-b063-6ab8dba94cbf" time="1378595570888" ignored="false" />
     <file path="/ShiroCommunicator.java" changelist="7bcb8fc9-5455-4d5c-b063-6ab8dba94cbf" time="1378664942581" ignored="false" />
-    <file path="/LoginProcessorServlet.java" changelist="7bcb8fc9-5455-4d5c-b063-6ab8dba94cbf" time="1378664474263" ignored="false" />
-    <file path="/AuthFilter.java" changelist="7bcb8fc9-5455-4d5c-b063-6ab8dba94cbf" time="1378663567662" ignored="false" />
+    <file path="/LoginProcessorServlet.java" changelist="7bcb8fc9-5455-4d5c-b063-6ab8dba94cbf" time="1378668170636" ignored="false" />
+    <file path="/AuthFilter.java" changelist="7bcb8fc9-5455-4d5c-b063-6ab8dba94cbf" time="1378669217767" ignored="false" />
+    <file path="/main.jsp" changelist="7bcb8fc9-5455-4d5c-b063-6ab8dba94cbf" time="1378668828930" ignored="false" />
+    <file path="/application.properties" changelist="7bcb8fc9-5455-4d5c-b063-6ab8dba94cbf" time="1378668067233" ignored="false" />
+    <file path="/APICommunicator.java" changelist="7bcb8fc9-5455-4d5c-b063-6ab8dba94cbf" time="1378668085638" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,13 +82,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ShiroCommunicator.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/stormpath/shirojavafrontgate/controllers/APICommunicator/ShiroCommunicator.java">
+      <file leaf-file-name="main.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/protected/main.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="89" column="22" selection-start="2801" selection-end="2801" vertical-scroll-proportion="2.3286712">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="29" column="19" selection-start="1029" selection-end="1029" vertical-scroll-proportion="-8.75">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -93,40 +94,7 @@
       <file leaf-file-name="LoginProcessorServlet.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/stormpath/shirojavafrontgate/controllers/Login/LoginProcessorServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="12" selection-start="1420" selection-end="1459" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ResetProcessorServlet.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/stormpath/shirojavafrontgate/controllers/Login/ResetProcessorServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="51" selection-start="1803" selection-end="1803" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RegProcessorServlet.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/stormpath/shirojavafrontgate/controllers/Registration/RegProcessorServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="13" selection-start="663" selection-end="663" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EditProcessorServlet.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/stormpath/shirojavafrontgate/controllers/Edit/EditProcessorServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="50" selection-start="1557" selection-end="1557" vertical-scroll-proportion="0.0">
+            <state line="49" column="101" selection-start="1795" selection-end="1795" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -137,16 +105,16 @@
       <file leaf-file-name="APICommunicator.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/stormpath/shirojavafrontgate/controllers/APICommunicator/APICommunicator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="28" selection-start="986" selection-end="986" vertical-scroll-proportion="0.0">
+            <state line="62" column="29" selection-start="1980" selection-end="1980" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AuthFilter.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="AuthFilter.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/stormpath/shirojavafrontgate/controllers/Login/AuthFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="8" selection-start="1913" selection-end="1913" vertical-scroll-proportion="0.0">
+            <state line="67" column="18" selection-start="2554" selection-end="2554" vertical-scroll-proportion="1.4004425">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -154,11 +122,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/protected/main.jsp">
+      <file leaf-file-name="ShiroCommunicator.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/stormpath/shirojavafrontgate/controllers/APICommunicator/ShiroCommunicator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="5.0">
-              <folding />
+            <state line="89" column="22" selection-start="2801" selection-end="2801" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -179,11 +149,13 @@
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/shiro.ini" />
-        <option value="$PROJECT_DIR$/src/main/java/com/stormpath/shirojavafrontgate/controllers/Login/AuthFilter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/stormpath/shirojavafrontgate/controllers/APICommunicator/APICommunicator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/stormpath/shirojavafrontgate/controllers/Login/LoginProcessorServlet.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/stormpath/shirojavafrontgate/controllers/APICommunicator/ShiroCommunicator.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/stormpath/shirojavafrontgate/controllers/Edit/EditProcessorServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/stormpath/shirojavafrontgate/controllers/APICommunicator/APICommunicator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/stormpath/shirojavafrontgate/controllers/Login/LoginProcessorServlet.java" />
+        <option value="$PROJECT_DIR$/web/protected/main.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/stormpath/shirojavafrontgate/controllers/Login/AuthFilter.java" />
       </list>
     </option>
   </component>
@@ -932,7 +904,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32917705" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3198198" sideWeight="0.64339155" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35660848" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35660848" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1032,11 +1004,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="26" selection-end="243" vertical-scroll-proportion="0.03448276" />
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/stormpath/shiro/stormpath-shiro-core/0.3.1/stormpath-shiro-core-0.3.1.jar!/com/stormpath/shiro/realm/ApplicationRealm.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="13" selection-start="168" selection-end="168" vertical-scroll-proportion="0.10489511">
@@ -1062,38 +1029,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="3.125">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/protected/main.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="5.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/stormpath/shirojavafrontgate/controllers/Login/AuthFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="8" selection-start="1913" selection-end="1913" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/stormpath/shirojavafrontgate/controllers/APICommunicator/APICommunicator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="28" selection-start="986" selection-end="986" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/stormpath/shirojavafrontgate/controllers/Login/LoginProcessorServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="12" selection-start="1420" selection-end="1459" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1124,9 +1059,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="7" selection-start="250" selection-end="250" vertical-scroll-proportion="0.12295082">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/protected/main.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="19" selection-start="1029" selection-end="1029" vertical-scroll-proportion="-8.75">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/stormpath/shirojavafrontgate/controllers/APICommunicator/ShiroCommunicator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="89" column="22" selection-start="2801" selection-end="2801" vertical-scroll-proportion="2.3286712">
+        <state line="89" column="22" selection-start="2801" selection-end="2801" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/stormpath/shirojavafrontgate/controllers/APICommunicator/APICommunicator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="62" column="29" selection-start="1980" selection-end="1980" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/stormpath/shirojavafrontgate/controllers/Login/LoginProcessorServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="101" selection-start="1795" selection-end="1795" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/stormpath/shirojavafrontgate/controllers/Login/AuthFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="67" column="18" selection-start="2554" selection-end="2554" vertical-scroll-proportion="1.4004425">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

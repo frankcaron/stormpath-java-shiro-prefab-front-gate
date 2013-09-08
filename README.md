@@ -13,6 +13,7 @@ The following capabilities have been implemented:
 * Authentication
 * Account editing
 * Password reset
+* Basic Group Check
 
 ### Assumptions
 
@@ -28,12 +29,13 @@ This readme assumes that you have already set up a developer account with Stormp
         apiKey = /path/to/yourApiKey
         applicationURL = http://fullURLtoyourStormpathApplication
         directoryURL = http://fullURLtoyourStormpathDirectory
+        adminGroupURL = http://fullURLtoyourStormpathAdminGroupWithinADirectory
 
 5. Configure the password reset page on your directory within the [Stormpath API Console](http://api.stormpath.com) to use the following URL for its Password Reset workflow (Directory > Workflows > Password Reset show link):
 
 		localhost:8080/reset.jsp
 
-6. Run the app locally by clicking the "build and run" button in your IDE. The generated WAR must be deployed against the appropriate java servlet container (e.g., Tomcat)
+7. Run the app locally by clicking the "build and run" button in your IDE. The generated WAR must be deployed against the appropriate java servlet container (e.g., Tomcat)
 
 ### Dependencies
 
@@ -48,7 +50,9 @@ This impl relies on the following, which can be installed via maven:
 
 The application's design relies on plain old Java Servlets and Filters. The project's web.xml file maps out HTTP requests to the various controllers.
 
-The `APICommunicator` controller is the chief shared resource for all of the other controllers. It is the singleton responsible for handling all of the instantiation and resource management of Stormpath SDK objects, most importantly the client. It also reads from the external properties file.
+The `APICommunicator` controller is a shared resource for all of the other controllers. It is the singleton responsible for handling all of the instantiation and resource management of Stormpath SDK objects, most importantly the client. It also reads from the external properties file.
+
+The `ShiroCommunicator` is another shared resource for all the other controllers. It is the singleton responsible for handling all interaction with Shiro — namely authentication and authorization.
 
 The rest of the controllers are clearly demarcated: 
 
