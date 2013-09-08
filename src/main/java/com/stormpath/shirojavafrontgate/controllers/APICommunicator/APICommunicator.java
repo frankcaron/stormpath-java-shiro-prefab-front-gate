@@ -164,8 +164,7 @@ public class APICommunicator {
 
     //Helper function to retrieve an account
     public Account getAccount(String href) {
-        DataStore dataStore = client.getDataStore();
-        Account account = client.getDataStore().getResource(href, Account.class);
+        Account account = this.dataStore.getResource(href, Account.class);
         return account;
     }
 }
