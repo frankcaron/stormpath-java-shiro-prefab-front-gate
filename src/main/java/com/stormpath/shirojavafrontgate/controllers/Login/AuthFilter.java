@@ -13,6 +13,8 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
+import org.apache.shiro.subject.*;
+import org.apache.shiro.SecurityUtils;
 
 public class AuthFilter implements Filter {
 
@@ -31,20 +33,30 @@ public class AuthFilter implements Filter {
         servletResponse.setContentType("text/html");
         String path = ((HttpServletRequest) servletRequest).getRequestURI();
 
+        //If not in a protected page, process without interrupting
         if (path.equals("/index.jsp") || path.equals("/index.jsp?session=false") || path.equals("/LoginProcessorServlet")) {
-            //Proceed with normal rendering
             filterChain.doFilter(servletRequest, servletResponse);
         } else {
-            //Make sure a session is valid, otherwise redier
-            HttpSession session = ((HttpServletRequest) servletRequest).getSession();
-            if(session.getAttribute("Account")==null) {
+
+            //Get the current user
+            Subject currentUser = SecurityUtils.getSubject();
+
+            //Check for the current Shiro subject for auth.
+            if(!currentUser.isAuthenticated()) {
                 //No session was found. Redirect to login page.
                 ((HttpServletResponse)(servletResponse)).sendRedirect("/index.jsp?session=expired");
+
+            //Clear the current shiro subject and redirect if logging out
             } else if (path.equals("/protected/logout.jsp")) {
-                session.invalidate();
+                if (currentUser != null) {
+                    if (currentUser.isAuthenticated()) {
+                        currentUser.logout();
+                    }
+                }
                 ((HttpServletResponse)(servletResponse)).sendRedirect("/index.jsp");
+
+            //All is well. Continue as per normal.
             } else {
-                //Continue as per normal.
                 filterChain.doFilter(servletRequest, servletResponse);
             }
         }

@@ -14,6 +14,7 @@ package com.stormpath.shirojavafrontgate.controllers.Edit;
 
 import com.stormpath.shirojavafrontgate.controllers.APICommunicator.APICommunicator;
 import com.stormpath.sdk.account.Account;
+import com.stormpath.shirojavafrontgate.controllers.APICommunicator.ShiroCommunicator;
 
 import javax.servlet.*;
 import javax.servlet.http.*;
@@ -22,14 +23,14 @@ import java.io.IOException;
 public class EditProcessorServlet extends HttpServlet {
 
     private APICommunicator editHelper = APICommunicator.getInstance();
+    private ShiroCommunicator retrievalHelper = ShiroCommunicator.getInstance();
 
     public void doPost (HttpServletRequest req,
                         HttpServletResponse res)
             throws ServletException, IOException
     {
         //Fetch the user's account URL
-        HttpSession session = req.getSession();
-        String href = (String)(session.getAttribute("AccountHref"));
+        String href = retrievalHelper.getCurrentUserHref();
 
         //Make edit request
         Account accountEdited = this.editHelper.editAccount(href, req.getParameterMap());
@@ -37,6 +38,7 @@ public class EditProcessorServlet extends HttpServlet {
         //Validate auth and redirect as appropriate
         if (accountEdited != null) {
             //Replace session object
+            HttpSession session = req.getSession();
             session.setAttribute("Account", accountEdited);
 
             //Redirect to site page

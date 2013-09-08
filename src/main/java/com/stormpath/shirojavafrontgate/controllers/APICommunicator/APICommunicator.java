@@ -159,4 +159,11 @@ public class APICommunicator {
             return null;
         }
     }
+
+    //Helper function to retrieve an account
+    public Account getAccount(String href) {
+        DataStore dataStore = client.getDataStore();
+        Account account = client.getDataStore().getResource(href, Account.class);
+        return account;
+    }
 }
