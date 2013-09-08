@@ -45,6 +45,7 @@ This impl relies on the following, which can be installed via maven:
 * javax.servlet.*
 * [Shiro Core](http://shiro.apache.org/download.html)
 * [Shiro Web](http://shiro.apache.org/download.html)
+* [Stormpath Shiro](https://github.com/stormpath/stormpath-shiro)
 
 ### Design
 
