@@ -25,7 +25,7 @@
 <%@page language="java" session="true" %>
 <html>
 <head>
-    <title>Stormpath - Sample Framework-free Java App</title>
+    <title>Stormpath - Sample Shiro-integrated Java App</title>
     <link rel="stylesheet" type="text/css" href="../static/style/style.css" />
 </head>
 <body>

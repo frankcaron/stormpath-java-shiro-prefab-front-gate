@@ -11,7 +11,7 @@
 
 <html>
 <head>
-    <title>Stormpath - Sample Framework-free Java App</title>
+    <title>Stormpath - Sample Shiro-integrated Java App</title>
     <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/static/style/style.css" />
 </head>
 <body>

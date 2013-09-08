@@ -22,6 +22,7 @@
     <file path="/main.jsp" changelist="7bcb8fc9-5455-4d5c-b063-6ab8dba94cbf" time="1378668828930" ignored="false" />
     <file path="/application.properties" changelist="7bcb8fc9-5455-4d5c-b063-6ab8dba94cbf" time="1378668067233" ignored="false" />
     <file path="/APICommunicator.java" changelist="7bcb8fc9-5455-4d5c-b063-6ab8dba94cbf" time="1378668085638" ignored="false" />
+    <file path="/a.dummy" changelist="7bcb8fc9-5455-4d5c-b063-6ab8dba94cbf" time="1378669749081" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +86,34 @@
       <file leaf-file-name="main.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/protected/main.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="19" selection-start="1029" selection-end="1029" vertical-scroll-proportion="-8.75">
+            <state line="13" column="11" selection-start="337" selection-end="337" vertical-scroll-proportion="-6.25">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="register.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/register.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="11" selection-start="275" selection-end="275" vertical-scroll-proportion="-6.5833335">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="reset.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/reset.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="11" selection-start="272" selection-end="272" vertical-scroll-proportion="-6.5833335">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="set.jsp" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/set.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="26" selection-start="961" selection-end="961" vertical-scroll-proportion="0.7177778">
               <folding />
             </state>
           </provider>
@@ -111,10 +139,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AuthFilter.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="AuthFilter.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/stormpath/shirojavafrontgate/controllers/Login/AuthFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="67" column="18" selection-start="2554" selection-end="2554" vertical-scroll-proportion="1.4004425">
+            <state line="67" column="18" selection-start="2554" selection-end="2554" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -122,13 +150,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ShiroCommunicator.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/stormpath/shirojavafrontgate/controllers/APICommunicator/ShiroCommunicator.java">
+      <file leaf-file-name="index.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="89" column="22" selection-start="2801" selection-end="2801" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="11" column="11" selection-start="274" selection-end="274" vertical-scroll-proportion="-6.25">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="edit.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/protected/edit.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="11" selection-start="337" selection-end="337" vertical-scroll-proportion="-6.5833335">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="logout.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/protected/logout.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="11" selection-start="741" selection-end="741" vertical-scroll-proportion="-6.625">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -143,9 +187,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/java/com/stormpath/frameworklessjavafrontgate/controllers/Edit/EditProcessorServlet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/stormpath/shirojavafrontgate/controllers/Login/ResetProcessorServlet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/stormpath/shirojavafrontgate/controllers/Registration/RegProcessorServlet.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/shiro.ini" />
@@ -154,8 +195,14 @@
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/stormpath/shirojavafrontgate/controllers/APICommunicator/APICommunicator.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/stormpath/shirojavafrontgate/controllers/Login/LoginProcessorServlet.java" />
-        <option value="$PROJECT_DIR$/web/protected/main.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/stormpath/shirojavafrontgate/controllers/Login/AuthFilter.java" />
+        <option value="$PROJECT_DIR$/web/index.jsp" />
+        <option value="$PROJECT_DIR$/web/protected/edit.jsp" />
+        <option value="$PROJECT_DIR$/web/protected/logout.jsp" />
+        <option value="$PROJECT_DIR$/web/protected/main.jsp" />
+        <option value="$PROJECT_DIR$/web/register.jsp" />
+        <option value="$PROJECT_DIR$/web/reset.jsp" />
+        <option value="$PROJECT_DIR$/web/set.jsp" />
       </list>
     </option>
   </component>
@@ -886,7 +933,7 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32917705" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32917705" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -900,11 +947,11 @@
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1981982" sideWeight="0.64339155" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1981982" sideWeight="0.6708229" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32917705" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3198198" sideWeight="0.64339155" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35660848" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3198198" sideWeight="0.6708229" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35660848" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -976,58 +1023,9 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/stormpath-java-shiro-prefab-front-gate.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="508" selection-end="508" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="21" selection-start="1586" selection-end="1586" vertical-scroll-proportion="0.88495576">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
-        <state />
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
-        <state />
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="26" selection-start="959" selection-end="959" vertical-scroll-proportion="-0.5555556">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/stormpath/shiro/stormpath-shiro-core/0.3.1/stormpath-shiro-core-0.3.1.jar!/com/stormpath/shiro/realm/ApplicationRealm.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="13" selection-start="168" selection-end="168" vertical-scroll-proportion="0.10489511">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/stormpath/shiro/stormpath-shiro-core/0.3.1/stormpath-shiro-core-0.3.1.jar!/com/stormpath/shiro/realm/GroupPermissionResolver.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="17" selection-start="172" selection-end="172" vertical-scroll-proportion="0.10489511">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/shiro.ini">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="47" selection-start="375" selection-end="375" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="3.125">
           <folding />
         </state>
       </provider>
@@ -1066,13 +1064,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/protected/main.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="19" selection-start="1029" selection-end="1029" vertical-scroll-proportion="-8.75">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/stormpath/shirojavafrontgate/controllers/APICommunicator/ShiroCommunicator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="89" column="22" selection-start="2801" selection-end="2801" vertical-scroll-proportion="0.0">
@@ -1100,10 +1091,59 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/stormpath/shirojavafrontgate/controllers/Login/AuthFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="18" selection-start="2554" selection-end="2554" vertical-scroll-proportion="1.4004425">
+        <state line="67" column="18" selection-start="2554" selection-end="2554" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="11" selection-start="274" selection-end="274" vertical-scroll-proportion="-6.25">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/protected/edit.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="11" selection-start="337" selection-end="337" vertical-scroll-proportion="-6.5833335">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/protected/logout.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="11" selection-start="741" selection-end="741" vertical-scroll-proportion="-6.625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/protected/main.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="11" selection-start="337" selection-end="337" vertical-scroll-proportion="-6.25">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/register.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="11" selection-start="275" selection-end="275" vertical-scroll-proportion="-6.5833335">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/reset.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="11" selection-start="272" selection-end="272" vertical-scroll-proportion="-6.5833335">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/set.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="26" selection-start="961" selection-end="961" vertical-scroll-proportion="0.7177778">
+          <folding />
         </state>
       </provider>
     </entry>
